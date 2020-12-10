@@ -1,0 +1,8 @@
+<html>
+  <p>Hello You There</p>
+  <script>
+    fetch('https://jsonplaceholder.typicode.com/todos')
+      .then(response => response.json())
+      .then(data => console.log(JSON.stringify(data)))
+  </script>
+</html>
